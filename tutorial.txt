@@ -1,0 +1,2 @@
+Build the project -> type in terminal: dotnet Build
+Run the project -> F5 -> C# -> Default project (opens localhost project)
