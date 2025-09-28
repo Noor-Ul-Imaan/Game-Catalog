@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Nooru\\NOORULIMAAN\\PROJECTS\\ASP.NET\\GameStore\\GameStore.csproj": {}
+    "C:\\Users\\Nooru\\NOORULIMAAN\\PROJECTS\\ASP.NET\\GameStore\\GameStore.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Nooru\\NOORULIMAAN\\PROJECTS\\ASP.NET\\GameStore\\GameStore.csproj": {
+    "C:\\Users\\Nooru\\NOORULIMAAN\\PROJECTS\\ASP.NET\\GameStore\\GameStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Nooru\\NOORULIMAAN\\PROJECTS\\ASP.NET\\GameStore\\GameStore.csproj",
+        "projectUniqueName": "C:\\Users\\Nooru\\NOORULIMAAN\\PROJECTS\\ASP.NET\\GameStore\\GameStore.csproj",
         "projectName": "GameStore",
-        "projectPath": "c:\\Users\\Nooru\\NOORULIMAAN\\PROJECTS\\ASP.NET\\GameStore\\GameStore.csproj",
+        "projectPath": "C:\\Users\\Nooru\\NOORULIMAAN\\PROJECTS\\ASP.NET\\GameStore\\GameStore.csproj",
         "packagesPath": "C:\\Users\\Nooru\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Nooru\\NOORULIMAAN\\PROJECTS\\ASP.NET\\GameStore\\obj\\",
+        "outputPath": "C:\\Users\\Nooru\\NOORULIMAAN\\PROJECTS\\ASP.NET\\GameStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nooru\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,22 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MinimalApis.Extensions": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

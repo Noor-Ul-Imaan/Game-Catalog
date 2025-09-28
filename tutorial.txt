@@ -1,2 +1,9 @@
 Build the project -> type in terminal: dotnet Build
 Run the project -> F5 -> C# -> Default project (opens localhost project)
+or terminal: dotnet run
+
+GameDto.cs is a record type file. A record was used not a class becuase:
+Records are immutable and DTOs carry resource that do not need be changed from one point to another.
+Also dont require the boiler plate code when using classes.
+
+the "game" in all endpoints is repetetive so we going to GROUP them

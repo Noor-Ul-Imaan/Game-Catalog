@@ -1,0 +1,21 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Entity Framework
+# You usually KEEP migrations, so don’t ignore them unless you want a clean repo
+#migrations/
+
+# Others
+*.db
+*.db-shm
+*.db-wal
